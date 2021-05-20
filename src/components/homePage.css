@@ -1,0 +1,214 @@
+.centerPanel {
+    display : grid;
+    grid-area : centerPanel;
+    color: white;
+    background-color:teal;
+}
+
+.leftPanel {
+    display : grid;
+    grid-area : leftPanel;
+    color: white;
+    background-color:lightseagreen;
+}
+
+.rightPanel {
+    display : grid;
+    grid-area : rightPanel;
+    color: white;
+    background-color:darkslategray;
+}
+
+.playerName
+{
+  display: grid;
+  grid-area: playerName; 
+}
+
+.playerInfo
+{
+    display: grid;
+    grid-area: playerInfo;
+}
+
+.playerPic
+{
+    display: grid;
+    grid-area: playerPic;
+}
+
+
+/* FirstEleven Grid */
+
+.centerBackGridBox {
+    display: grid;
+    grid-area: centerBack;
+    justify-content: center;
+    color: white;
+}
+
+/* Bench Grid */
+
+.firstBenchPic {
+    display: grid;
+    grid-area: firstBenchPic;
+    justify-content: center;
+}
+
+.secondBenchPic {
+    display: grid;
+    grid-area: secondBenchPic;
+    justify-content: center;
+}
+
+.thirdBenchPic {
+    display: grid;
+    grid-area: thirdBenchPic;
+    justify-content: center;
+}
+
+.fourthBenchPic {
+    display: grid;
+    grid-area: fourthBenchPic;
+    justify-content: center;
+}
+
+.fifthBenchPic {
+    display: grid;
+    grid-area: fifthBenchPic;
+    justify-content: center;
+}
+
+.formationText {
+    display: grid;
+    grid-area: formationText;
+    justify-content: center;
+}
+
+.formationButton {
+    display: grid;
+    grid-area: formationButton;
+    justify-content: center;
+}
+
+/* Formation Grid */
+
+/* .firstFormationText {
+    color: white;
+    grid-area: firstFormationText;
+    justify-content: center;
+}
+
+.firstFormationCheckBox {
+    color: white;
+    grid-area: firstFormationCheckBox;
+    justify-content: center;
+}
+
+.secondFormationText {
+    color: white;
+    grid-area: secondFormationText;
+    justify-content: center;
+}
+
+.secondFormationCheckBox {
+    color: white;
+    grid-area: secondFormationCheckBox;
+    justify-content: center;
+}
+                       
+.thirdFormationText {
+    color: white;
+    grid-area: thirdFormationText;
+    justify-content: center;
+}
+
+.thirdFormationCheckBox {
+    color: white;
+    grid-area: thirdFormationCheckBox;
+    justify-content: center;
+}
+                       
+.fourthFormationText {
+    color: white;
+    grid-area: fourthFormationText;
+    justify-content: center;
+}
+
+.fourthFormationCheckBox {
+    color: white;
+    grid-area: fourthFormationCheckBox;
+    justify-content: center;
+}
+                       
+.fifthFormationText {
+    color: white;
+    grid-area: fifthFormationText;
+    justify-content: center;
+}
+
+.fifthFormationCheckBox {
+    color: white;
+    grid-area: fifthFormationCheckBox;
+    justify-content: center;
+}
+                       
+.sixthFormationText {
+    color: white;
+    grid-area: sixthFormationText;
+    justify-content: center;
+}
+
+.sixthFormationCheckBox {
+    color: white;
+    grid-area: sixthFormationCheckBox;
+    justify-content: center;
+}
+                       
+.seventhFormationText {
+    color: white;
+    grid-area: seventhFormationText;
+    justify-content: center;
+}
+
+.seventhFormationCheckBox {
+    color: white;
+    grid-area: seventhFormationCheckBox;
+    justify-content: center;
+}
+                       
+.eighthFormationText {
+    color: white;
+    grid-area: eighthFormationText;
+    justify-content: center;
+}
+
+.eighthFormationCheckBox {
+    color: white;
+    grid-area: eighthFormationCheckBox;
+    justify-content: center;
+}
+                       
+.ninthFormationText {
+    color: white;
+    grid-area: ninthFormationText;
+    justify-content: center;
+}
+
+.ninthFormationCheckBox {
+    color: white;
+    grid-area: ninthFormationCheckBox;
+    justify-content: center;
+}
+                       
+.tenthFormationText {
+    color: white;
+    grid-area: tenthFormationText;
+    justify-content: center;
+}
+
+.tenthFormationCheckBox {
+    color: white;
+    grid-area: tenthFormationCheckBox;
+    justify-content: center;
+} */

@@ -1,38 +1,183 @@
-.App {
+.App 
+  {
+  display: grid;
+ }
+
+                      
+
+
+ .StartPageGrid
+ {
+   text-align: center;
+   display: grid;
+   min-height: 100vh;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 80px 80px 1fr;
+   grid-template-areas: 
+   " . . . "
+   " leftPanel centerPanel rightPanel"
+   " lowerLeftPanel centerPanel lowerRightPanel "
+   " . . . ";
+                     
+ }
+
+.LoginGrid
+{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  display: grid;
   min-height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 80px 80px 1fr;
+  grid-template-areas: 
+  " . . . "
+  " leftPanel centerPanel rightPanel"
+  " lowerLeftPanel centerPanel lowerRightPanel "
+  " . . . ";
+                    
+}
+
+.HomePageGrid
+{
+  text-align: center;
+  display: grid;
+  margin-top: 48px;
+  min-height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  " leftPanel  centerPanel  rightPanel "
+}
+
+
+.Button
+{
+  border-radius: 4px;
+  border: 2px solid; 
+  color: rgb(0, 255, 221);
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+  box-sizing: border-box;
+  margin: auto;
+  text-decoration: none;  /* gets rid of all decoration including underline */
+  list-style-type: none;  /* for drop down */
+  
+  
+}
+
+.Button:hover
+{
+  box-shadow: gray 1px;
+  border: honeydew;
+}
+
+.Navbar
+{
+  text-align: center;
+  padding: 10px 10px;
+  margin: 0px;
+  text-decoration: none;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color:darkslategray;
+}
+
+.homePageContainer
+{
+  display: grid, flex;
+  margin: 2px;
+  grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-template-areas: 
+   " playerName playerName "
+   " playerPic playerInfo "
+}
+
+
+.PlayerCard
+{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50px;
+  height: 100px;
+}
+
+.PlayerCard1
+{
+  border: 1px solid darkseagreen;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 150px;
+  max-height: 350px;
+  
+}
+
+
+.FirstElevenGrid
+{
+  text-align: center;
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  " leftWinger  centerForward centerForward centerForward rightWinger "
+  " centerAttackingMidfield  centerAttackingMidfield centerAttackingMidfield centerAttackingMidfield centerAttackingMidfield "
+  " leftMidfield  centerMidfield centerMidfield centerMidfield rightMidfield "
+  " leftWingBack defensiveMidfield defensiveMidfield defensiveMidfield rightWingBack "
+  " leftBack  centerBack centerBack centerBack rightBack "
+  " goalKeeper goalKeeper goalKeeper goalKeeper goalKeeper "
+}
+
+.benchGrid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: " benchTitle benchTitle benchTitle "
+                       " firstBenchPic firstBenchSub firstBenchTactics "
+                       " secondBenchPic secondBenchSub secondBenchTactics "
+                       " thirdBenchPic thirdBenchSub thirdBenchTactics "
+                       " fourthBenchPic fourthBenchSub fourthBenchTactics "
+                       " fifthBenchPic fifthBenchSub fifthBenchTactics "
+}
+
+/* .formationContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  flex-direction: row;
+  height: 100vh;
+  overflow-y: scroll;
+} */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formationGrid {
+  text-align: center;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "formationText formationButton"
+                       "formationText formationButton"
+                       "formationText formationButton"
+                       "formationText formationButton"
+                       "formationText formationButton"
+                       "formationText formationButton"
+                       "formationText formationButton"
+                       "formationText formationButton"
+                       "formationText formationButton"
+                       "formationText formationButton"
+  
+  
+                       /* " firstFormationText firstFormationCheckBox "
+                       " secondFormationText secondFormationCheckBox "
+                       " thirdFormationText thirdFormationCheckBox "
+                       " fourthFormationText fourthFormationCheckBox "
+                       " fifthFormationText fifthFormationCheckBox "
+                       " sixthFormationText sixthFormationCheckBox "
+                       " seventhFormationText seventhFormationCheckBox "
+                       " eighthFormationText eighthFormationCheckBox "
+                       " ninthFormationText ninthFormationCheckBox "
+                       " tenthFormationText tenthFormationCheckBox " */
+                      
 }

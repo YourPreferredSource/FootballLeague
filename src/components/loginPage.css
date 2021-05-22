@@ -117,7 +117,7 @@
 
 
 .loginRightButton {
-    background-color: var(--middle-mint-color);
+    background-color: var(--dark-mint-color);
     width: 40%;
     line-height: 50px;
     box-sizing: border-box;
@@ -133,6 +133,7 @@
     font-weight: bold;
     cursor: pointer;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 .loginRightButton:hover{

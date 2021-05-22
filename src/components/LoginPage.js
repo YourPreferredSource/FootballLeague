@@ -2,6 +2,7 @@ import React from 'react'
 import Table from './Table'
 import '../App.css'
 import './loginPage.css'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -14,7 +15,7 @@ const LoginPage = () => {
         
        <div className = 'LoginGrid'>
            <div className = 'leftPanel'>
-           <form className = 'loginForm'>
+                <form className = 'loginForm'>
                     <label LabelText = {'Username/Email Address'}> 
                     </label>
                     <input className = 'inputLeft' type = {'email'} placeholder = {'Username'}>
@@ -23,8 +24,12 @@ const LoginPage = () => {
                     </label>
                     <input className = 'inputLeft' type = {'password'}placeholder = {'Password'}>
                     </input>
-                    <button className = 'loginLeftButton'> Login </button>
-                    <button className = 'loginLeftButton'> Create Account </button>
+                    
+                        <button type = 'button' className = 'loginLeftButton'> Login </button>
+                    
+                    
+                        <button type = 'button' className = 'loginLeftButton'> Create Account </button>
+                    
                 </form>
                 
            </div>
@@ -35,8 +40,12 @@ const LoginPage = () => {
            </div>
            <div className = 'rightPanel'>
                <form className = 'loginForm'>
-                    <button className = 'loginRightButton'> About </button>
-                    <button className = 'loginRightButton'> Rules </button>
+                    <NavLink type='button' className = 'loginRightButton' to = "/Login">
+                         About 
+                    </NavLink>
+                    <NavLink type = 'button' className = 'loginRightButton' to = "/Login">
+                          Rules
+                    </NavLink>
                 </form>
            </div>
        </div>

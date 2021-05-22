@@ -11,7 +11,7 @@ import HomeUserNavigate from './HomeUserNavigate'
 import Navbar from './Navbar'
 import HPPlayerProfile from './HPPlayerProfile'
 
-const HomeUserPage = () => {
+const HomePage = () => {
    
 const [showBench, setShowBench] = useState (true)
 const [showFormation, setShowFormation] = useState(false)
@@ -41,4 +41,4 @@ const [showFormation, setShowFormation] = useState(false)
     )
 }
 
-export default HomeUserPage
+export default HomePage

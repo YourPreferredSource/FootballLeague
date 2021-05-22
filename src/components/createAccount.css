@@ -1,0 +1,49 @@
+.createAccForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.createAccInput {
+    background-color:transparent;
+    width: 40%;
+    line-height: 50px;
+    box-sizing: border-box;
+    box-shadow: 1 3px 6px;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: var(--button-outline-color);
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.createAccInput:hover {
+    border-color:var(--dark-mint-color);
+}
+
+.createAccButton {
+    background-color: var(--middle-mint-color);
+    width: 40%;
+    line-height: 50px;
+    box-sizing: border-box;
+    box-shadow: 1 3px 6px;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: var(--dark-mint-color);
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.createAccButton:hover{
+    border-color: var(--button-outline-color);
+}

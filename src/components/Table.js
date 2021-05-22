@@ -25,7 +25,7 @@ const Table = () => {
 
     return (
         <table className = 'Table'>
-            <tr>
+            <tr className = 'TableRow' >
                         <th>Position</th>
                         <th>Team Name</th>
                         <th>Points</th>
@@ -35,9 +35,9 @@ const Table = () => {
                     
             {Data.map(team => (
                 <tr className = 'TableRow' >
-                    <td key={team.Position}>{team.Position}
+                    <td  key={team.Position}>{team.Position}
                     </td>
-                    <td key={team.Position}>{team.Name}
+                    <td  key={team.Position}>{team.Name}
                     </td>
                     <td key={team.Position}>{team.Points}
                     </td>

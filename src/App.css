@@ -6,33 +6,19 @@
                       
 
 
- .StartPageGrid
- {
-   text-align: center;
-   display: grid;
-   min-height: 100vh;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr 80px 80px 1fr;
-   grid-template-areas: 
-   " . . . "
-   " leftPanel centerPanel rightPanel"
-   " lowerLeftPanel centerPanel lowerRightPanel "
-   " . . . ";
-                     
- }
+
 
 .LoginGrid
 {
+  
   text-align: center;
   display: grid;
   min-height: 100vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 80px 80px 1fr;
+  grid-template-rows: 1fr;
   grid-template-areas: 
-  " . . . "
   " leftPanel centerPanel rightPanel"
-  " lowerLeftPanel centerPanel lowerRightPanel "
-  " . . . ";
+  ;
                     
 }
 

@@ -8,7 +8,7 @@ const HPPlayerProfile = ({nameText}) => {
     return (
         <div>
             <div className = 'playerName'>{nameText}</div>
-            <div className = 'playerPic'> <PlayerCard/> </div>
+            <div className = 'playerPic'> </div>
             <div className = 'playerInfo'></div>
             <div className = 'playerInfo'></div>
             <div className = 'playerInfo'></div>

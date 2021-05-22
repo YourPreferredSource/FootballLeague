@@ -1,37 +1,45 @@
 import React from 'react'
 import Table from './Table'
 import '../App.css'
-import './startPage.css'
+import './loginPage.css'
 
 
 const LoginPage = () => {
     return (
-        <div className = 'LoginGrid'>
-            <div className = 'leftGridBox'>
-                <form>
+
+
+
+<div>
+        
+       <div className = 'LoginGrid'>
+           <div className = 'leftPanel'>
+           <form className = 'loginForm'>
                     <label LabelText = {'Username/Email Address'}> 
                     </label>
-                    <input placeholder = {'...'}>
+                    <input className = 'input' type = {'email'} placeholder = {'Username'}>
                     </input>
-                </form>
-    
-            </div>
-            <div className = 'lowerLeftGridBox'>
-                <form>
                     <label >
-                    {'Password '}
                     </label>
-                    <input placeholder = {'...'}>
+                    <input className = 'input' type = {'password'}placeholder = {'Password'}>
                     </input>
+                    <button className = 'loginButton'> Login </button>
+                    <button className = 'loginButton'> Create Account </button>
                 </form>
-            </div>
-            <div className = 'middleGridBox'>
-                <Table>
+                
+           </div>
+           <div className = 'centerPanel'>    
+           <Table>
                     
-                </Table>
+                </Table>         
+           </div>
+           <div className = 'rightPanel'>
 
-            </div>
-        </div>
+           </div>
+       </div>
+  </div>
+
+
+      
     )
 }
 

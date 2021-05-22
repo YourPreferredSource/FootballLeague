@@ -1,9 +1,16 @@
+:root {
+    --light-mint-color: lightseagreen;
+    --middle-mint-color: teal;
+    --dark-mint-color: darkslategray;
+    --button-outline-color: rgb(0, 255, 221);
+  }
+
 .centerPanel {
     align-items: center;
     display : grid;
     grid-area : centerPanel;
     color: white;
-    background-color:teal;
+    background-color:var(--middle-mint-color);
 }
 
 .leftPanel {
@@ -11,15 +18,16 @@
     display : grid;
     grid-area : leftPanel;
     color: white;
-    background-color:lightseagreen;
+    background-color: var(--light-mint-color);
     
 }
 
 .rightPanel {
+    align-items: center;
     display : grid;
     grid-area : rightPanel;
     color: white;
-    background-color:darkslategray;
+    background-color:var(--dark-mint-color);
 }
 
 .loginForm {
@@ -31,7 +39,7 @@
 }
 
 
-.input {
+.inputLeft {
     background-color:transparent;
     width: 40%;
     line-height: 50px;
@@ -39,7 +47,7 @@
     box-shadow: 1 3px 6px;
     border: 2px solid;
     border-radius: 3px;
-    border-color:rgb(0, 255, 221);
+    border-color: var(--button-outline-color);
     color: white;
     font-size: 20px;
     justify-content: center;
@@ -49,8 +57,30 @@
     
 }
 
-.input:hover {
-    border-color:darkslategray;
+.inputLeft:hover {
+    border-color:var(--dark-mint-color);
+}
+
+.inputRight {
+    background-color:transparent;
+    width: 40%;
+    line-height: 50px;
+    box-sizing: border-box;
+    box-shadow: 1 3px 6px;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: var(--button-outline-color);
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    transition: 0.5s;
+    
+}
+
+.inputRight:hover {
+    border-color:var(--dark-mint-color);
 }
 
 ::placeholder {
@@ -62,15 +92,15 @@
     
 }
 
-.loginButton {
-    background-color:teal;
+.loginLeftButton {
+    background-color: var(--middle-mint-color);
     width: 40%;
     line-height: 50px;
     box-sizing: border-box;
     box-shadow: 1 3px 6px;
     border: 2px solid;
     border-radius: 3px;
-    border-color: darkslategray;
+    border-color: var(--dark-mint-color);
     color: white;
     font-size: 20px;
     justify-content: center;
@@ -81,10 +111,33 @@
     transition: 0.5s;
 }
 
-.loginButton:hover{
-    border-color: rgb(0, 255, 221);
+.loginLeftButton:hover{
+    border-color: var(--button-outline-color);
 }
 
+
+.loginRightButton {
+    background-color: var(--middle-mint-color);
+    width: 40%;
+    line-height: 50px;
+    box-sizing: border-box;
+    box-shadow: 1 3px 6px;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: var(--light-mint-color);
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.loginRightButton:hover{
+    border-color: var(--button-outline-color);
+}
 
 
 

@@ -1,3 +1,10 @@
+:root {
+  --light-mint-color: lightseagreen;
+  --middle-mint-color: teal;
+  --dark-mint-color: darkslategray;
+  --button-outline-color: rgb(0, 255, 221);
+}
+
 .App 
   {
   display: grid;
@@ -39,7 +46,7 @@
 {
   border-radius: 4px;
   border: 2px solid; 
-  color: rgb(0, 255, 221);
+  color: var(--button-outline-color);
   text-align: center;
   cursor: pointer;
   font-size: 24px;
@@ -80,6 +87,29 @@
    " playerPic playerInfo "
 }
 
+.Table {
+  display: table;
+  width: 80%;
+  border: solid 2px;
+  border-radius: 3px;
+  border-color: darkslategray;
+  border-collapse: collapse;
+  justify-self: center;
+  
+  /* padding: 2px; */
+  
+
+}
+
+.TableRow {
+  display: table-row;
+  border-collapse: collapse ;
+  border-color: var(--dark-mint-color);
+  border: solid 2px var(--dark-mint-color);
+  border-radius: 3px;
+  
+}
+
 
 .PlayerCard
 {
@@ -92,7 +122,7 @@
 
 .PlayerCard1
 {
-  border: 1px solid darkseagreen;
+  border: 1px solid var(--light-mint-color);
   border-radius: 4px;
   padding: 5px;
   max-width: 150px;

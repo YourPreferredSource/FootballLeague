@@ -4,6 +4,7 @@ import '../App.css'
 import './loginPage.css'
 
 
+
 const LoginPage = () => {
     return (
 
@@ -16,14 +17,14 @@ const LoginPage = () => {
            <form className = 'loginForm'>
                     <label LabelText = {'Username/Email Address'}> 
                     </label>
-                    <input className = 'input' type = {'email'} placeholder = {'Username'}>
+                    <input className = 'inputLeft' type = {'email'} placeholder = {'Username'}>
                     </input>
                     <label >
                     </label>
-                    <input className = 'input' type = {'password'}placeholder = {'Password'}>
+                    <input className = 'inputLeft' type = {'password'}placeholder = {'Password'}>
                     </input>
-                    <button className = 'loginButton'> Login </button>
-                    <button className = 'loginButton'> Create Account </button>
+                    <button className = 'loginLeftButton'> Login </button>
+                    <button className = 'loginLeftButton'> Create Account </button>
                 </form>
                 
            </div>
@@ -33,7 +34,10 @@ const LoginPage = () => {
                 </Table>         
            </div>
            <div className = 'rightPanel'>
-
+               <form className = 'loginForm'>
+                    <button className = 'loginRightButton'> About </button>
+                    <button className = 'loginRightButton'> Rules </button>
+                </form>
            </div>
        </div>
   </div>

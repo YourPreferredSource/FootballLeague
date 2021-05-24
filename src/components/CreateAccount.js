@@ -2,6 +2,7 @@ import React from 'react'
 import '../App.css'
 import './loginPage.css'
 import './createAccount.css'
+import { NavLink } from 'react-router-dom'
 
 const CreateAccount = () => {
 
@@ -26,7 +27,7 @@ const CreateAccount = () => {
                     </input>
                     
                     <button className = 'createAccButton'> Create Account </button>
-                    <button className = 'createAccButton'> Back </button>
+                    <NavLink to = '/' className = 'createAccButton'> Back </NavLink>
                 </form>
                 
            </div>

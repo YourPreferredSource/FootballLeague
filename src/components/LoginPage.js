@@ -28,7 +28,7 @@ const LoginPage = () => {
                         <button type = 'button' className = 'loginLeftButton'> Login </button>
                     
                     
-                        <button type = 'button' className = 'loginLeftButton'> Create Account </button>
+                        <NavLink to = '/CreateAccount' type = 'button' className = 'loginLeftButton'> Create Account </NavLink>
                     
                 </form>
                 

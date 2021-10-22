@@ -1,0 +1,60 @@
+
+.centerSection {
+    position: fixed;
+    background-color: transparent;
+    left: 100px;
+    right: 100px;
+    bottom: 100px;
+    top: 100px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+.squadPlayerCard {
+    text-align: center;
+    border: 2px solid gold;
+    border-radius: 4px;
+    background-color:steelblue;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.squadPlayerSolo {
+    text-align: left;
+    background-color:lightskyblue;
+    margin: 0px;
+    
+}
+
+
+.squadPlayerCredit {
+  font-size: 10px;
+}
+
+.squadPlayerPosition {
+  text-align: left;
+  background-color:aqua;
+  margin: 0px;
+}
+
+.squadPlayerSpecial {
+    text-align: left;
+    background-color:aqua;
+    margin: 0px;
+}
+
+.squadPlayerName {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: ghostwhite;
+
+}
+
+.squadPlayerPicture {
+    
+    padding: 2px;
+    max-width: 270px;
+    max-height: 300px;
+    
+}

@@ -11,10 +11,6 @@
  }
 
                       
-
-
-
-
 .LoginGrid
 {
   
@@ -124,7 +120,7 @@
 }
 
 
-.PlayerCard
+.playerPic1
 {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -133,7 +129,7 @@
   height: 100px;
 }
 
-.PlayerCard1
+.PlayerPicture
 {
   border: 1px solid var(--light-mint-color);
   border-radius: 4px;
@@ -210,3 +206,8 @@
                        " tenthFormationText tenthFormationCheckBox " */
                       
 }
+
+
+/* Squad */
+
+

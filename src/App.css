@@ -23,6 +23,25 @@
   " leftPanel centerPanel rightPanel"
   ;
                     
+
+
+}
+
+.LoginFlexBox
+{
+  
+  /* text-align: center;
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  " leftPanel centerPanel rightPanel"
+  ;
+                     */
+                     display: flex;
+                     flex-direction: row;
+
 }
 
 .HomePageGrid

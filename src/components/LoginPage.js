@@ -24,9 +24,24 @@ const LoginPage = () => {
 
 <div>
         
-       <div className = 'LoginGrid'>
-           <div className = 'leftPanel'>
-                <form className = 'loginForm' onSubmit={handleSubmit}>
+       <div className = 'grid-container'>
+           <div className = 'item-1'>
+                
+                
+           </div>
+          
+           <div className = 'item-2'>    
+           {/* <Table>
+                    
+                </Table>          */}
+           </div>
+           <div className = 'item-5'>
+            <div className = 'Title'>Mint Football</div>
+                
+                
+                </div>
+           <div className = 'item-4'>
+           <form className = 'loginForm' onSubmit={handleSubmit}>
                     {/* <label LabelText = {'Username/Email Address'}> 
                     </label> */}
                     <input 
@@ -55,14 +70,8 @@ const LoginPage = () => {
                         <NavLink to = '/CreateAccount' type = 'button' className = 'loginLeftButton'> Create Account </NavLink>
                     
                 </form>
-                
-           </div>
-           <div className = 'centerPanel'>    
-           {/* <Table>
-                    
-                </Table>          */}
-           </div>
-           <div className = 'rightPanel'>
+            </div>
+           <div className = 'item-3'>
                <form className = 'loginForm'>
                     <NavLink type='button' className = 'loginRightButton' to = "/Login">
                          About 

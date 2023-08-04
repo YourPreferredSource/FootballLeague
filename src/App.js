@@ -7,6 +7,7 @@ import './App.css';
 import HomePage from './components/HomePage';
 import FirstEleven from './components/FirstEleven';
 import CreateAccount from './components/CreateAccount';
+import Team from './components/Team';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/HomePage' component={ HomePage } />
         <Route path='/FirstEleven' component={ FirstEleven } />
         <Route path='/Squad' component={ Squad } />
+        <Route path='/Team' component={ Team } />
       </Switch>
    </BrowserRouter>
   )

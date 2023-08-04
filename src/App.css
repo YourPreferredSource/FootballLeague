@@ -162,6 +162,265 @@
   }
 }
 
+.pitch-grid-container {
+  display: grid;
+  grid-template: repeat(36, [row] 1fr) / repeat(36, [col] 1fr);
+  min-height: 100vh;
+}
+
+.pitch-player-1,
+.pitch-player-2,
+.pitch-player-3,
+.pitch-player-4,
+.pitch-player-5,
+.pitch-player-6,
+.pitch-player-7,
+.pitch-player-8,
+.pitch-player-9,
+.pitch-player-10,
+.pitch-player-11,
+.pitch-player-12,
+.pitch-player-13,
+.pitch-player-14,
+.pitch-player-15,
+.pitch-player-16,
+.pitch-player-17,
+.pitch-player-18,
+.pitch-player-19,
+.pitch-player-20,
+.pitch-player-21,
+.pitch-player-22,
+.pitch-player-23,
+.pitch-player-24,
+.pitch-lines
+{
+  align-items: center;
+  display : grid;
+  color: white;
+}
+
+.pitch-background-1 {
+  background-color: var(--light-mint-color);
+  grid-column: col 1 / span 12;
+  grid-row: row 1 / span 36;
+}
+
+.pitch-background-2 {
+  background-color:var(--middle-mint-color);
+  grid-column: col 13 / span 12;
+  grid-row: row 1 / span 36;
+}
+
+.pitch-background-3 {
+  background-color:var(--dark-mint-color);
+  grid-column: col 25 / span 12;
+  grid-row: row 1 / span 36;
+}
+
+.pitch-lines
+{
+border-style: solid;
+border-color: white;
+grid-column: col 4 / span 18;
+grid-row: row 10 / span 24;
+}
+
+.pitch-lines1
+{
+  border-style: solid;
+  border-color: white;
+  grid-column: col 9 / span 8;
+  grid-row: row 10 / span 6;
+}
+
+.pitch-lines2
+{
+  border-style: solid;
+  border-color: white;
+  grid-column: col 11 / span 4;
+  grid-row: row 10 / span 2;
+}
+
+.pitch-lines3
+{
+  border-style: solid;
+  border-color: white;
+  grid-column: col 12 / span 2;
+  grid-row: row 15 / span 2;
+  border-radius: 50%;
+}
+
+.pitch-lines4
+{
+  /* border-style: solid;
+  border-color: white; */
+  grid-column: col 13/ span 1;
+  grid-row: row 15 / span 1;
+  /* border-radius: 50%; */
+  /* background-color: white; */
+  background-color: var(--middle-mint-color);
+}
+
+.pitch-lines5
+{
+  /* border-style: solid;
+  border-color: white; */
+  grid-column: col 12/ span 1;
+  grid-row: row 15 / span 1;
+  /* border-radius: 50%; */
+  /* background-color: white; */
+  background-color: var(--light-mint-color);
+}
+
+.pitch-lines6
+{
+  border-style: solid;
+  border-color: white;
+  grid-column: col 11 / span 4;
+  grid-row: row 31 / span 6;
+  border-radius: 50%;
+}
+
+.pitch-lines7
+{
+  /* border-style: solid;
+  border-color: white; */
+  grid-column: col 13/ span 2;
+  grid-row: row 34 / span 4;
+  /* border-radius: 50%; */
+  /* background-color: white; */
+  background-color: var(--middle-mint-color);
+}
+
+.pitch-lines8
+{
+  /* border-style: solid;
+  border-color: white; */
+  grid-column: col 11/ span 2;
+  grid-row: row 34 / span 4;
+  /* border-radius: 50%; */
+  /* background-color: white; */
+  background-color: var(--light-mint-color);
+}
+
+.formationDropDownArea {
+  grid-column: col 29/ span 4;
+  grid-row: row 18 / span 4;
+}
+
+@media screen and (max-width: 1450px) {
+
+  .pitch-background-1 {
+    background-color: var(--light-mint-color);
+    grid-column: col 1 / span 18;
+    grid-row: row 1 / span 36;
+  }
+  
+  .pitch-background-2 {
+    background-color:var(--middle-mint-color);
+    grid-column: col 19 / span 18;
+    grid-row: row 1 / span 36;
+  }
+  
+  .pitch-background-3 {
+    background-color:var(--dark-mint-color);
+    grid-column: col 1 / span 36;
+    grid-row: row 31 / span 6;
+  }
+  
+  .pitch-lines
+  {
+  border-style: solid;
+  border-color: white;
+  grid-column: col 2 / span 34;
+  grid-row: row 7 / span 23;
+  }
+
+  .pitch-lines1
+{
+  border-style: solid;
+  border-color: white;
+  grid-column: col 12 / span 14;
+  grid-row: row 7 / span 3;
+}
+
+  .pitch-lines2
+{
+  border-style: solid;
+  border-color: white;
+  grid-column: col 15 / span 8;
+  grid-row: row 7 / span 1;
+}
+
+.pitch-lines3
+{
+  border-style: solid;
+  border-color: white;
+  grid-column: col 17 / span 4;
+  grid-row: row 9 / span 2;
+  border-radius: 50%;
+}
+
+.pitch-lines4
+{
+  /* border-style: solid;
+  border-color: white; */
+  grid-column: col 19/ span 2;
+  grid-row: row 9 / span 1;
+  /* border-radius: 50%; */
+  /* background-color: white; */
+  background-color: var(--middle-mint-color);
+}
+
+.pitch-lines5
+{
+  /* border-style: solid;
+  border-color: white; */
+  grid-column: col 17/ span 2;
+  grid-row: row 9 / span 1;
+  /* border-radius: 50%; */
+  /* background-color: white; */
+  background-color: var(--light-mint-color);
+}
+
+.pitch-lines6
+{
+  border-style: solid;
+  border-color: white;
+  grid-column: col 16 / span 6;
+  grid-row: row 28 / span 4;
+  border-radius: 50%;
+}
+
+.pitch-lines7
+{
+  /* border-style: solid;
+  border-color: white; */
+  grid-column: col 19/ span 4;
+  grid-row: row 30 / span 1;
+  /* border-radius: 50%; */
+  /* background-color: white; */
+  background-color: var(--middle-mint-color);
+}
+
+.pitch-lines8
+{
+  /* border-style: solid;
+  border-color: white; */
+  grid-column: col 15/ span 4;
+  grid-row: row 30 / span 1;
+  /* border-radius: 50%; */
+  /* background-color: white; */
+  background-color: var(--light-mint-color);
+}
+
+.formationDropDownArea {
+  grid-column: col 17/ span 4;
+  grid-row: row 32 / span 4;
+}
+
+}
+
 .LoginFlexBox
 {
   
